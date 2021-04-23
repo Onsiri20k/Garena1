@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\MemberController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,10 +22,6 @@ Route::get('/', function () {
 
 //createroute
 
-Route::get('/about',function(){
-    return view('about');
-});
+Route::get('/about',[AboutController::class,'index']);
 
-Route::get('/member',function(){
-    return view('member.index');
-});
+Route::get('/member',[MemberController::class,'index']);

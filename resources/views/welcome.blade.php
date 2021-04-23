@@ -47,11 +47,12 @@
                     </svg>
                 </div>
 
-
-                <div class="jumbotron text-center">
+                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
+                
+                <div class="mt-2 text-gray-800 dark:text-gray-400 text-sm text-center font-semibold">
   <h1>My Page : Patch game</h1>
   <p>Welcome to my page about all patch game in this world!</p> 
-</div>
+</>
 
 
 
@@ -60,7 +61,7 @@
                         <div class="p-6">
                             <div class="flex items-center">
                                 
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="http://127.0.0.1:8001/about" class="underline text-gray-900 dark:text-white">Find Patch Game</a></div>
+                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="http://127.0.0.1:8000/about" class="underline text-gray-900 dark:text-white">Find Patch Game</a></div>
                             </div>
 
                             <div class="ml-12">
@@ -73,7 +74,7 @@
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
                             <div class="flex items-center">
                               
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="http://127.0.0.1:8001/member" class="underline text-gray-900 dark:text-white">Update Patch Game</a></div>
+                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="http://127.0.0.1:8000/member" class="underline text-gray-900 dark:text-white">Update Patch Game</a></div>
                             </div>
 
                             <div class="ml-12">

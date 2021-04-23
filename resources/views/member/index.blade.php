@@ -17,6 +17,20 @@
 </div>
 
 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">My Page:</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="http://127.0.0.1:8000">Home</a></li>
+      <li><a href="http://127.0.0.1:8000/about">Find Patch Game</a></li>
+      
+    </ul>
+  </div>
+</nav>
+
+
 
 <form class="form-horizontal" action="/action_page.php">
   <div class="form-group">
@@ -59,7 +73,7 @@
 <div class="container">
 
   <h2>Patch Game :</h2>
-  <p>information for all game and can update in this table</p></p>            
+  <p>Information for all game and can update in this table</p></p>            
   <table class="table table-striped">
     <thead>
       <tr>
@@ -73,19 +87,24 @@
     </thead>
     <tbody>
       <tr>
-        <td>1.5</td>
-        <td>Genshin Impact</td>
-        <td>Update Zhongli rerun and new banner Eula</td>
-        <td>Noon</td>
+
+
+
+        <p><td>{{$mayom}}</td></p>
+        <p><td>{{$luca}}</td></p>
+        <p><td>{{$oppa}}</td></p>
+        <p><td>{{$jiso}}</td></p>
 
         <td><button type="button" class="btn btn-warning active">edit</button></td>
         <td><button type="button" class="btn btn-danger active">delete</button></td>
+
 
       </tr>
     </tbody>
   </table>
 </div>
-<div class="ml-4 text-lg leading-7 font-semibold"><a href="http://127.0.0.1:8001" class="underline text-gray-900 dark:text-white">Patch gaming Homepage</a></div>
+
+
 </body>
 </html>
 

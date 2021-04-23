@@ -15,9 +15,29 @@
   <p>This webpage you can find patch game that you need!</p> 
 </div>
 
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">My Page:</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="http://127.0.0.1:8000">Home</a></li>
+      <li><a href="http://127.0.0.1:8000/member">Update Patch Game</a></li>
+      
+    </ul>
+  </div>
+</nav>
+
+
+
+
 <div class="container">
   <h2>Find Patch Game Table :</h2>
   <p>Type something in the input field to search the table for patch version, game or description:</p>  
+  
+ 
+  
   <input class="form-control" id="myInput" type="text" placeholder="Search..">
   <br>
   <table class="table table-bordered table-striped">
@@ -26,13 +46,18 @@
         <th>Patch version</th>
         <th>Game</th>
         <th>Description</th>
+        <th>Author</th>
       </tr>
     </thead>
     <tbody id="myTable">
       <tr>
-        <td>1.5</td>
-        <td>Genshin impact</td>
-        <td>Update Zhongli rerun and new banner Eula</td>
+
+        <p><td>{{$patv}}</td></p>
+        <p><td>{{$games}}</td></p>
+        <p><td>{{$desc}}</td></p>
+        <p><td>{{$address}}</td></p>
+        
+       
       </tr>
     
       
@@ -57,17 +82,6 @@ $(document).ready(function(){
 
 </body>
 </html>
-
-
-
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                     
-                                </div>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="http://127.0.0.1:8001" class="underline text-gray-900 dark:text-white">Patch Gaming Homepage</a></div>
-                            </div>
-                        </div>
 
 
 </body>
